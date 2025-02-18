@@ -5,7 +5,6 @@
   - nmae: insatll nginx pacakage
     ansible.builtin.package:
       name: nginx
-      state: present
   - name: run nginx service
     ansible.builtin.service:
       name: nginx
