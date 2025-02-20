@@ -1,0 +1,38 @@
+- name: checking the data types
+  hosts: localhost
+  vars:
+    NAME: Sivakumar
+    Skills:
+    - Devops
+    - AWS
+    - Jenkin
+    - Docker
+    Experience:
+      Devops: 6
+      Aws: 5
+      Java: 8
+    Tariner: true
+  tasks:
+    - name: print key value pairs
+      ansible.builtin.debug:
+        msg: "name: {{NAME}}"
+  tasks:
+    - name: print the list
+      ansible.builtin.debug:
+        msg: "skills: {{Skills}}"
+  tasks:
+    - name: print the map
+      ansible.builtin.debug:
+        msg: "Experience: {{Experience}}"
+  tasks:
+    - name: print the boolean
+      ansible.builtin.debug:
+        msg: "is he trainer: {{Tariner}}
+  
+
+  
+
+
+    
+
+
