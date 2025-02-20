@@ -2,13 +2,13 @@
   hosts: localhost
   vars_files:
   - varaibles.yaml
-  vars_prompt:
-  - name: Person
-    prompt: please enter the Person
-    private: false # user can see what they entering
-  - name: Wishes
-    prompt: please enter the Wishes
-    private: false # user can't see what they entering
+  # vars_prompt:
+  # - name: Person
+  #   prompt: please enter the Person
+  #   private: false # user can see what they entering
+  # - name: Wishes
+  #   prompt: please enter the Wishes
+  #   private: false # user can't see what they entering
   vars: 
     Person: "Siva from PLay"
     Wishes: "Morning from PLAY"
