@@ -2,3 +2,9 @@
 3.95.229.191
 
 [localhost]
+localhost
+
+[localhost:vars]
+Course="Devops with EC2"
+Trainer="Sivakumar"
+Duriation="110Hours"
