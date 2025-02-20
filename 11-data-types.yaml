@@ -27,7 +27,7 @@
   tasks:
   - name: print the boolean
     ansible.builtin.debug:
-      msg: "is he trainer: {{Tariner}}
+      msg: "is he trainer: {{Tariner}}"
   
 
   
